@@ -52,3 +52,13 @@ body{
     width: 300PX;
     height: 200PX;
 }
+
+.escalacao{
+     background-color: green; 
+    width: 85%;
+    max-width: 1000px;
+    padding: 70px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+}

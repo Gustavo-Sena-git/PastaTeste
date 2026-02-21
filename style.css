@@ -55,10 +55,28 @@ body{
 
 .escalacao{
      background-color: green; 
-    width: 85%;
-    max-width: 1000px;
-    padding: 70px;
+    width: 90%;
+    height: 100vh;
+    padding: 30px;
     border-radius: 30px;
-    text-align: center;
-    margin: 0 auto;
+    margin: 40px auto;
+}
+
+.escalacoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     gap: 40px;
+}
+.Titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Titulo h2{
+    font-size: 40px;
 }
